@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="58dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rectangle_light_gray"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="58dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rectangle_style"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="58dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rectangle_light_gray"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="58dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/rectangle_light_gray"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="전시회"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="뮤지컬"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="연극"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="축제"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:text="커피"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="304dp"
+        android:text="디저트"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="건축"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="반려동물"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="술"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="미식"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="아웃도어"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="독서"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="콘서트"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="문화 생활"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="관심있는 주제를 "
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="1개 이상 선택해주세요 !"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="592dp"
+        android:background="@drawable/bin_gray"
+        android:lineSpacingExtra="14sp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bin_white"
+        android:lineSpacingExtra="14sp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="536dp"
+        android:text="관심 주제는 나중에 다시 수정할 수 있어요!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:text="국내 여행"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        android:contentDescription="뒤로 가기" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
